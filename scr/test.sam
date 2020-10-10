@@ -1,0 +1,2 @@
+var long = 'yes'
+print 'long'
