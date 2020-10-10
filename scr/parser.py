@@ -1,5 +1,5 @@
-from Objects.varObject import VariableObject
-from Objects.printObj import PrintObject
+from scr.Objects.varObject import VariableObject
+from scr.Objects.printObj import PrintObject
 
 class Parser(object):
     def __init__(self, tokens):

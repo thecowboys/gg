@@ -1,7 +1,5 @@
 import re
 
-
-
 class Lexer(object):
     def __init__(self, source_code):
         self.source_code = source_code
@@ -41,7 +39,7 @@ class Lexer(object):
                 tokens.append(["INTEGER", word])
 
             # This will recognise a operators and create an operator token for it
-            elif word is "=" or "/" or "*" or "-" or "+":
+            elif word == "=" or "/" or "*" or "-" or "+":
                 tokens.append(["OPERATOR", word])
 
             # Increases word index after checking it
