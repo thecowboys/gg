@@ -3,9 +3,9 @@ import parser
 
 def main():
 
-    # Read the current flow source code in test.sam and store it in variable
+    # Read the current flow source code in test.gg and store it in variable
     content = ""
-    with open("test.sam", "r") as file:
+    with open("test.gg", "r") as file:
         content = file.read()
 
     #
