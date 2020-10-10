@@ -1,2 +1,2 @@
 # gg
-An programing language.
+A programming language.
